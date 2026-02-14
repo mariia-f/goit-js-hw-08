@@ -16,9 +16,11 @@ ul {
   padding: 0;
   list-style-type: none;
 }
-.gallery-image {
+img {
   max-width: 100%;
   display: block;
+}
+.gallery-image {
   width: 360px;
   height: 200px;
 }
@@ -35,14 +37,6 @@ ul {
 }
 
 .modal-window {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   background-color: rgba(46, 47, 66, 0.8);
 }
 .modal-img {
